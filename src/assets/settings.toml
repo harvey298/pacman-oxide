@@ -1,0 +1,24 @@
+################
+# Pacman Oxide #
+################
+# 
+#   Setting file for Pacman Oxide
+#   
+#
+
+
+# Cheats will be ignored in a multiplayer context
+[cheats]
+disable_blinky = false
+disable_pinky = false
+disable_inky = false
+disable_clyde = false
+anti_cheat = true # Note this is to protect multiplayer games, each client will share a copy of their settings.toml if its changed
+
+[networking]
+allow_networking = true
+score_server = "hoovy.co.uk"
+
+[tests]
+enable = false
+test_level = ""
